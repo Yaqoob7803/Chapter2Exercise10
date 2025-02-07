@@ -19,12 +19,16 @@ using namespace std;
 
 int main()
 {
-    double gallons = 15.0;
-    double miles = 375.0;
-    double mpg = miles / gallons;
+    double gallons;
+    double miles;
 
+    cout << "Gallons used: ";
+    cin >> gallons;
 
-    cout << "The car gets " << mpg << " miles per gallon " << "/n";
+    cout << "Miles driven: ";
+    cin >> miles;
+
+    cout << "Miles per Gallon: " << miles / gallons << endl;
     
 
     return 0;
